@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FodyConsole", "FodyConsole\FodyConsole.csproj", "{BD9F245C-D8A5-4B83-A292-C46BF4ADDF96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FodyConsole.Fody", "FodyConsole.Fody\FodyConsole.Fody.csproj", "{F871F216-656E-4275-8ECE-BEC96EC846CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9F245C-D8A5-4B83-A292-C46BF4ADDF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9F245C-D8A5-4B83-A292-C46BF4ADDF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9F245C-D8A5-4B83-A292-C46BF4ADDF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9F245C-D8A5-4B83-A292-C46BF4ADDF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F871F216-656E-4275-8ECE-BEC96EC846CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F871F216-656E-4275-8ECE-BEC96EC846CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F871F216-656E-4275-8ECE-BEC96EC846CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F871F216-656E-4275-8ECE-BEC96EC846CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
