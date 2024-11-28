@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Fody" Version="6.8.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="FodySDK.Fody" Version="1.0.3"/>
+        <WeaverFiles Include="../DemoApplication\bin\$(Configuration)\net5.0\FodySDK.Fody.dll"/>
+    </ItemGroup>
+</Project>

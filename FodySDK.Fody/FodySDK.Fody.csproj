@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Version>1.0.3</Version>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+        <!-- NuGet 包信息 -->
+        <PackageId>FodySDK.Fody</PackageId>
+        <Authors>James</Authors>
+
+        <!-- Fody 相關配置 -->
+        <DisableFody>true</DisableFody>
+        <WeaverDirPath>$(TargetDir)</WeaverDirPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Fody 必要的依賴 -->
+        <PackageReference Include="FodyHelpers" Version="6.8.0" PrivateAssets="none" />
+        <PackageReference Include="Fody" Version="6.8.0" PrivateAssets="none" />
+    </ItemGroup>
+
+    <!-- NuGet 包內容配置 -->
+    <ItemGroup>
+        <Content Include="$(PackageId).props" PackagePath="build\" />
+    </ItemGroup>
+</Project>

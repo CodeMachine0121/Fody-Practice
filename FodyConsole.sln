@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FodyConsole", "FodyConsole\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FodyConsole.Fody", "FodyConsole.Fody\FodyConsole.Fody.csproj", "{F871F216-656E-4275-8ECE-BEC96EC846CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FodySDK.Fody", "FodySDK.Fody\FodySDK.Fody.csproj", "{29587A75-14D2-4180-9667-6056A798EA25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApplication", "DemoApplication\DemoApplication.csproj", "{F8018AEC-748E-4719-8F5A-71FC9ED896C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{F871F216-656E-4275-8ECE-BEC96EC846CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F871F216-656E-4275-8ECE-BEC96EC846CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F871F216-656E-4275-8ECE-BEC96EC846CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29587A75-14D2-4180-9667-6056A798EA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29587A75-14D2-4180-9667-6056A798EA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29587A75-14D2-4180-9667-6056A798EA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29587A75-14D2-4180-9667-6056A798EA25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8018AEC-748E-4719-8F5A-71FC9ED896C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8018AEC-748E-4719-8F5A-71FC9ED896C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8018AEC-748E-4719-8F5A-71FC9ED896C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8018AEC-748E-4719-8F5A-71FC9ED896C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
